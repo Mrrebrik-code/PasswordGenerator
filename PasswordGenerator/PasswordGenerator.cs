@@ -77,6 +77,10 @@ namespace PasswordGenerator
             return Password;
         }
 
+        public void TypeGenerator(){
+            
+        }
+
         public void Show(string Password)
         {
             Console.WriteLine("Сгенерированный пароль: {0}", Password);
